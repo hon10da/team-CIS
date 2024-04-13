@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* لون الخلفية الافتراضي */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #444;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 69px;
+    padding: 10px;
+    font-size: 24px; /* حجم الخط */
+        margin-top: 10px; /* هامش علوي */
+        margin-bottom: 0px; /* هامش سفلي */
+        border-radius: 20%; /*  علشان اخلي النص دائري*/
+        background-color: #000000; /* لون الخلفية */
+        border: 2px solid #70706e; /* إضافة حدود */
+        display: inline-block; /* جعل العنصر عنصرًا مستقلًا بدلاً من احتلال كل المساحة */
+
+}
+
+main {
+    padding: 20px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #f8f0f0;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* يثبت الfooter في الأسفل */
+    width: 100%; /* يستخدم العرض الكامل للشاشة */
+    bottom: 0; /* يضبط الfooter في أسفل الصفحة */
+    left: 0;
+}
+body.index {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSpFvQfDdO_tx8cDUS1zz4ilsKW3ceSKhyNw&usqp=CAU'); /* خلفية الصفحة الرئيسية */
+    background-size: cover;
+}
+
+body.about {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSpFvQfDdO_tx8cDUS1zz4ilsKW3ceSKhyNw&usqp=CAU'); /* خلفية صفحة حولنا */
+    background-size: cover;
+}
+
+body.contact {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSpFvQfDdO_tx8cDUS1zz4ilsKW3ceSKhyNw&usqp=CAU'); /* خلفية صفحة اتصل بنا */
+    background-size: cover;
+}
+h1,h2 , p {
+    color: #fcfcfc; /* لون النص أبيض */
+}
+
+a {
+    color: #fcfcfc; /* لون الروابط أبيض */
+    text-decoration: none; /* إزالة تزيين الروابط */
+}
+h1 {
+    background-color: #4d4b4b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+
+    
+}
+
+   
+    
+    h2 {
+        color: #67231f; /* لون النص */
+        font-size: 24px; /* حجم الخط */
+        margin-top: 10px; /* هامش علوي */
+        margin-bottom: 10px; /* هامش سفلي */
+        border-radius: 10%; /* جعل العنصر دائريًا */
+        background-color: #f8f8f8; /* لون الخلفية */
+        border: 2px solid #70706e; /* إضافة حدود */
+        display: inline-block; /* جعل العنصر عنصرًا مستقلًا بدلاً من احتلال كل المساحة */
+    }
+    
+    
+    
+
+
+
+
+
+
